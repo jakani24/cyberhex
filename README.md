@@ -13,7 +13,7 @@ Cyberhex is a business-oriented antivirus solution developed as part of my MA pr
 - **Scalability**: Designed to scale efficiently to handle varying numbers of clients and growing databases.
   
 ## Getting Started
-To get started with Cyberhex, follow these steps (there will be an instruction sheet later on):
+To get started with Cyberhex, follow these steps (read the file Cyberhex Anleitung.pdf for instructions):
 1. **Clone Repository**: Clone the Cyberhex repository to your local machine.
 2. **Server Setup**: Set up the central server.
 3. **Client Installation**: Install the client daemon on each client system.
@@ -21,7 +21,7 @@ To get started with Cyberhex, follow these steps (there will be an instruction s
 5. **Run**: Start the server and client daemons to begin managing and protecting your network.
 
 ## Support and Contributions
-For any issues or feature requests, please open an issue on GitHub. Contributions are welcome through pull requests.
+For any issues or feature requests, please open an issue on GitHub.
 
 ## License
 This project is licensed under the BSD-3 License.
