@@ -59,3 +59,7 @@
 /src/ma_uninstaller/.vs
 /src/ma_uninstaller/x64
 /src/ma_uninstaller/ma_uninstaller
+src/ma_notificator/.vs/ma_notificator/copilot-chat/d4ae9a0b/sessions/49f01a3d-c575-4d08-a844-cba7ef93e7be
+*.rc
+*.idb
+*.pdb
