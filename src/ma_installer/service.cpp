@@ -148,6 +148,20 @@ int create_task()
         return 1;
     }
 
+   
+	hr = pSettings->put_StopIfGoingOnBatteries(VARIANT_FALSE);
+	pSettings->Release();
+	if (FAILED(hr))
+	{
+		cout << "Cannot set dont stop on batteries: " << hex << hr << endl;
+		pRootFolder->Release();
+		pTask->Release();
+		CoUninitialize();
+		return 1;
+	}
+    
+	
+
     ITriggerCollection* pTriggerCollection = NULL;
     hr = pTask->get_Triggers(&pTriggerCollection);
     if (FAILED(hr))

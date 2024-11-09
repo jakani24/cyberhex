@@ -5,6 +5,7 @@
 #include <fstream>
 #include <codecvt>
 #include <locale>
+#include <string>
 #include "../client_backend/well_known.h"
 
 #define IDM_SCAN_FILE 101
